@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="css/vendor/normalize.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <header class="top-header"> <!-- named with a slightly specific class name, so that later names are descriptive enough that they are unique -->
+        <img src="images/logo.png" alt="logo" title="logo" class="top-header__logo">
+        <nav class="top-header__nav">
+          <ul class="top-header__list">
+            <li class="top-header__item top-header__item--active"><a href="#">One</a></li>
+            <li class="top-header__item"><a href="#">Two</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <h1>This is an h1</h1>
+          <p>Here's some text!</p>
+        <aside class="main__aside">
+          <h2>This is an h2</h2>
+          <ul class="main__aside__list"> <!-- using grandchildren & great-grandchildren because it is possible to have multiple asides with lists on the page -->
+            <li class="main__aside__list__item">One</li>
+            <li class="main__aside__list__item">Two</li>
+            <li class="main__aside__list__item">Three</li>
+            <li class="main__aside__list__item">Four</li>
+          </ul>
+        </aside>
+        <section class="main__section">
+          <h2>This is an h2</h2>
+          <h3>This is an h3</h3>
+          <h4>This is an h4</h4>
+          <h5>This is an h5</h5>
+          <h6>This is an h6</h6>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>&copy;2018 <a href="http://www.brittanybellanca.com" target="_blank">Brittany Bellanca</a></p>
+      </footer>
+
+    </div><!-- .container -->
+  </body>
+</html>
