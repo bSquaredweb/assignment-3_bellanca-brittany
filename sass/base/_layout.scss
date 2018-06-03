@@ -3,19 +3,16 @@ body {
   background-color: #9bd1e2;
 }
 
-.container {
-  padding: 15px;
-}
-
 .top-header {
-  background-color: pink;
+  padding: 20px 0;
+  margin-bottom: 50px;
 }
 
 .top-header__logo {
   display: block;
   width: 100%;
   max-width: 200px;
-  margin: auto;
+  margin: 0 auto 10px auto;
 }
 
 .top-header__nav {
@@ -34,14 +31,18 @@ body {
   border-bottom: 2px solid transparent;
 }
 
+.top-header__item--active {
+  color: $red;
+  border-bottom: 2px solid $red;
+}
+
 .top-header__item--active a {
-  color: #d23519;
-  border-bottom: 2px solid #d23519;
+  color: $red;
 }
 
 .main {
   background-color: tomato;
-  max-width: 500px;
+  max-width: 700px;
   margin: auto;
 }
 
@@ -63,9 +64,10 @@ body {
 }
 
 .footer {
-  margin-top: 50px;
   background-color: white;
   text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
 }
 
 @media screen and (min-width: 675px) {
