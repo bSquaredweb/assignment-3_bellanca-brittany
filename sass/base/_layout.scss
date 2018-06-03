@@ -1,6 +1,6 @@
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: #9bd1e2;
+  background-color: $skyblue;
 }
 
 .top-header {
@@ -41,9 +41,10 @@ body {
 }
 
 .main {
-  background-color: tomato;
+  background-color: $white;
   max-width: 700px;
   margin: auto;
+  padding: 10px;
 }
 
 .main__aside {
@@ -72,18 +73,18 @@ body {
 
 @media screen and (min-width: 675px) {
   body {
-    background-color: #f1ebd2;
+    background-color: $beige;
   }
 }
 
 @media screen and (min-width: 999px) {
   body {
-    background-color: #edc9ff;
+    background-color: $purple;
   }
 }
 
 @media screen and (min-width: 1280px) {
   body {
-    background-color: #9be39d;
+    background-color: $green;
   }
 }
