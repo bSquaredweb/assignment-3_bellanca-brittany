@@ -9,4 +9,3 @@ For this assignment, I took assignment two's files and created my first reposito
 ## Comments/Feedback
 - I really understood this assignment after going through the process a second time. I appreciated having the assignment sheet, the recorded lecture, and the recorded Sass video.
 - The printed directions do not discuss how to create another branch; this seemed odd since everything else was in the directions, even if it had been gone over in a video.
-- At the end, when I came back to my master, my CSS folder was marked as having "changed" since the last commit here. The change is that the `main.css` sheet is no longer here. Is this because that file was deleted on step 32 bullet point 3? Or because we changed its name?
